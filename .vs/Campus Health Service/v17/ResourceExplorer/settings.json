@@ -1,0 +1,20 @@
+{
+  "ShowEmptyProjects": false,
+  "SelectedGroups": [],
+  "ExpandedProjects": [
+    "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\Campus Health Service.csproj"
+  ],
+  "EnableSpellChecker": true,
+  "ColumnOrder": [
+    "name",
+    "type",
+    "neutral-value",
+    "neutral-comment",
+    "file-path",
+    "file-name"
+  ],
+  "VisibleColumnKeys": [
+    "name",
+    "neutral-value"
+  ]
+}

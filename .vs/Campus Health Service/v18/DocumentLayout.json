@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C73A9-883F-43AC-B5FC-2F05F33FC955}|Campus Health Service\\Campus Health Service.csproj|c:\\users\\samue\\onedrive\\pictures\\desktop\\campus health service\\campus health service\\campus health service\\nurseordoctor\\patient_records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C73A9-883F-43AC-B5FC-2F05F33FC955}|Campus Health Service\\Campus Health Service.csproj|solutionrelative:campus health service\\nurseordoctor\\patient_records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C73A9-883F-43AC-B5FC-2F05F33FC955}|Campus Health Service\\Campus Health Service.csproj|c:\\users\\samue\\onedrive\\pictures\\desktop\\campus health service\\campus health service\\campus health service\\nurseordoctor\\patient_records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E45C73A9-883F-43AC-B5FC-2F05F33FC955}|Campus Health Service\\Campus Health Service.csproj|solutionrelative:campus health service\\nurseordoctor\\patient_records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C73A9-883F-43AC-B5FC-2F05F33FC955}|Campus Health Service\\Campus Health Service.csproj|c:\\users\\samue\\onedrive\\pictures\\desktop\\campus health service\\campus health service\\campus health service\\receptionist\\manage appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C73A9-883F-43AC-B5FC-2F05F33FC955}|Campus Health Service\\Campus Health Service.csproj|solutionrelative:campus health service\\receptionist\\manage appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C73A9-883F-43AC-B5FC-2F05F33FC955}|Campus Health Service\\Campus Health Service.csproj|c:\\users\\samue\\onedrive\\pictures\\desktop\\campus health service\\campus health service\\campus health service\\receptionist\\manage appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E45C73A9-883F-43AC-B5FC-2F05F33FC955}|Campus Health Service\\Campus Health Service.csproj|solutionrelative:campus health service\\receptionist\\manage appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Patient_Records.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\NurseOrDoctor\\Patient_Records.cs",
+              "RelativeDocumentMoniker": "Campus Health Service\\NurseOrDoctor\\Patient_Records.cs",
+              "ToolTip": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\NurseOrDoctor\\Patient_Records.cs",
+              "RelativeToolTip": "Campus Health Service\\NurseOrDoctor\\Patient_Records.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAUwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T09:19:30.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Patient_Records.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\NurseOrDoctor\\Patient_Records.cs",
+              "RelativeDocumentMoniker": "Campus Health Service\\NurseOrDoctor\\Patient_Records.cs",
+              "ToolTip": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\NurseOrDoctor\\Patient_Records.cs [Design]",
+              "RelativeToolTip": "Campus Health Service\\NurseOrDoctor\\Patient_Records.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T09:18:47.489Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manage Appointments.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\Receptionist\\Manage Appointments.cs",
+              "RelativeDocumentMoniker": "Campus Health Service\\Receptionist\\Manage Appointments.cs",
+              "ToolTip": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\Receptionist\\Manage Appointments.cs",
+              "RelativeToolTip": "Campus Health Service\\Receptionist\\Manage Appointments.cs",
+              "ViewState": "AgIAABoCAAAAAAAAAAAAADcCAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T08:45:20.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Manage Appointments.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\Receptionist\\Manage Appointments.cs",
+              "RelativeDocumentMoniker": "Campus Health Service\\Receptionist\\Manage Appointments.cs",
+              "ToolTip": "C:\\Users\\samue\\OneDrive\\Pictures\\Desktop\\Campus Health Service\\Campus Health Service\\Campus Health Service\\Receptionist\\Manage Appointments.cs [Design]",
+              "RelativeToolTip": "Campus Health Service\\Receptionist\\Manage Appointments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T08:45:08.235Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAGwNAAAAAAAAAAAiwIENAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-25T08:35:39.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

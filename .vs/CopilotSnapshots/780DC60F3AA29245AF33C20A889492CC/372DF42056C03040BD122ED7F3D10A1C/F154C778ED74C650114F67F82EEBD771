@@ -1,0 +1,109 @@
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Campus_Health_Service
+{
+    public partial class CheckPatient : Form
+    {
+        public CheckPatient()
+        {
+            InitializeComponent();
+        }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+
+            string studentStaffNumber = txtCheck.Text.Trim();
+
+            // Check if the textbox is empty
+            if (string.IsNullOrWhiteSpace(studentStaffNumber))
+            {
+                MessageBox.Show(
+                    "Please enter your Student/Staff Number.",
+                    "Missing Information",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                txtCheck.Focus();
+                return;
+            }
+
+            DBConnection db = new DBConnection();
+
+            string query = @"
+                SELECT Patient_ID,
+                       StudentORStaff_Number,
+                       Full_Name,
+                       Contact_Number,
+                       PasswordCode,
+                       Email
+                FROM patients
+                WHERE StudentORStaff_Number = @StudentStaffNumber
+                LIMIT 1";
+
+            try
+            {
+                using (MySqlConnection conn = db.GetConnection())
+                {
+                    conn.Open();
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue(
+                            "@StudentStaffNumber",
+                            studentStaffNumber);
+
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                // Patient exists
+                                MessageBox.Show(
+                                    "Patient found!\n\n" +
+                                    "Student/Staff Number: " +
+                                    reader["StudentORStaff_Number"].ToString() +
+                                    "\n\nName: " +
+                                    reader["Full_Name"].ToString() +
+                                    "\n\nContact Number: " +
+                                    reader["Contact_Number"].ToString() +
+                                    "\n\nEmail: " +
+                                    reader["Email"].ToString(),
+                                    "Patient Found",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Information);
+
+                                Book Appointment book = new 
+                            }
+                            else
+                            {
+                                // Patient does not exist
+                                MessageBox.Show(
+                                    "Patient not found in the system.",
+                                    "Patient Not Found",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Warning);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "Error checking patient:\n\n" + ex.Message,
+                    "Database Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+        
+        }
+    }
+}
